@@ -1,0 +1,28 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Lingfeng Sun 
+
+~~~
+{}{img_left}{imgs/lingfeng.jpg}{alt text}{}{160}{}
+Ph.D. Candidate,\n 
+[https://msc.berkeley.edu/index.html Mechanical System Control Lab], \n
+[https://www.berkeley.edu/ UC Berkeley]\n
+
+Email: /lingfengsun/ \[AT\] berkeley \[DOT\] edu
+~~~
+
+== About me
+I am a PhD student in robotics at University of California, Berkeley adviced by [https://me.berkeley.edu/people/masayoshi-tomizuka/ Prof. Masayoshi Tomizuka].
+I received B.S. in Mechanical Engineering from [https://umich.edu/ University of Michigan, Ann Arbor], 
+and B.S. in Electrical and Computer Engineering from [http://ji.sjtu.edu.cn/ Joint Institute, Shanghai Jiao Tong University].
+
+My research interest lies in *Robotics* (skill learning, control and optimization) and *Autonomous driving* (prediction, behavior generation).
+
+== Experience
+Research Intern,  [https://www.merl.com/ Mitsubishi Electrical Research Laboratories], 05\/2023 - 09\/2023\n
+
+AI Resident, [https://everydayrobots.com/ Everyday Robots (Google X)], 05\/2022 - 12\/2022
+
+Research Intern, [https://en.horizon.cc/ Horizon Robotics], 05\/2021 - 04\/2022
+
+== Teaching
+Graduate Student Instructor, *ME 232 Advanced Control Systems I*, Fall 2022 \n
