@@ -1,11 +1,22 @@
 # jemdoc: menu{MENU}{publications.html}, nofooter  
 == Publications
 
+
+\* stands for equal contribution.
+
+=== In submission
+- [papers/2023_distributed_ipg.pdf Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
+   *Lingfeng Sun*, Pin-Yun Hung, Changhao Wang, Masayoshi Tomizuka, Zhuo Xu\n
+   [https://sites.google.com/berkeley.edu/distributed-interaction/ Website]
+
+- LLM-POP: Large Language Model for Partial Observable Task Planning\n
+   *Lingfeng Sun*, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel, Xinghao Zhu, Masayoshi Tomizuka, Diego Romeres\n
+
 === Publications 
 
 - [https://openreview.net/pdf?id=gFXVysXh48K Efficient Sim-to-real Transfer of Contact-Rich Manipulation Skills with Online Admittance Residual Learning] \n
    Xiang Zhang, Changhao Wang, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi Tomizuka \n
-   in CoRL 2023
+   in CoRL 2023 [https://sites.google.com/view/admitlearn Website]
 
 - [https://arxiv.org/pdf/2306.01839 Efficient Multi-Task and Transfer Reinforcement Learning with Parameter-Compositional Framework] \n
    *Lingfeng Sun\**, Haichao Zhang\*, Wei Xu, Masayoshi Tomizuka \n
@@ -17,7 +28,7 @@
 
 - [https://proceedings.neurips.cc/paper_files/paper/2022/file/86b8ad667206fb9a52ae575fbf1cd6be-Paper-Conference.pdf PaCo: Parameter-Compositional Multi-Task Reinforcement Learning] \n
    *Lingfeng Sun\**, Haichao Zhang\*, Wei Xu, Masayoshi Tomizuka \n
-   in NeurIPS 2022
+   in NeurIPS 2022 [https://sites.google.com/site/hczhang1/projects/paco-mtrl Website] [https://github.com/TToTMooN/paco-mtrl Code]
 
 - [https://arxiv.org/pdf/2204.10435 Pretram: Self-supervised pre-training via connecting trajectory and map] \n
    Chenfeng Xu, Tian Li, Chen Tang, *Lingfeng Sun*, Kurt Keutzer, Masayoshi Tomizuka, Alireza Fathi, Wei Zhan \n
@@ -55,4 +66,4 @@
    *Lingfeng Sun*, Masayoshi Tomizuka, Wei Zhan\n
    in Workshop on Long-term Human Motion Prediction, ICRA 2021
 
-\* stands for equal contribution.
+
