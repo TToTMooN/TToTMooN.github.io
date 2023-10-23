@@ -26,3 +26,113 @@ Research Intern, [https://en.horizon.cc/ Horizon Robotics], 05\/2021 - 04\/2022
 
 == Teaching
 Graduate Student Instructor, *ME 232 Advanced Control Systems I*, UC Berkeley, Fall 2022\n
+
+== Selected Research 
+
+=== Robotic Skill Learning
+
+~~~
+{}{img_left}{imgs/llm.png}{alt text}{250}{}{}
+[index.html LLM-POP: Large Language Model for Partially Observable Task Planning]\n
+*Lingfeng Sun*, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel, Xinghao Zhu, Masayoshi Tomizuka, Diego Romeres \n
+/Under review/ \n
+[papers/2023_llm_pop.pdf \[Paper\]]
+~~~
+
+~~~
+{}{img_left}{imgs/mtrl.gif}{alt text}{250}{}{https://sites.google.com/berkeley.edu/distributed-interaction/}
+[https://proceedings.neurips.cc/paper_files/paper/2022/file/86b8ad667206fb9a52ae575fbf1cd6be-Paper-Conference.pdf PaCo: Parameter-Compositional Multi-Task Reinforcement Learning]\n
+*Lingfeng Sun\**, Haichao Zhang\*, Wei Xu, Masayoshi Tomizuka \n
+/NeurIPS 2022/ \n
+[https://sites.google.com/site/hczhang1/projects/paco-mtrl \[Website\]]
+[papers/2023_distributed_ipg.pdf \[Paper\]]
+[https://github.com/TToTMooN/paco-mtrl \[Code\]]
+~~~
+
+~~~
+{}{img_left}{imgs/taco.png}{alt text}{250}{}{https://arxiv.org/pdf/2306.01839}
+[https://arxiv.org/pdf/2306.01839 Efficient Multi-Task and Transfer Reinforcement Learning with Parameter-Compositional Framework]\n
+*Lingfeng Sun\**, Haichao Zhang\*, Wei Xu, Masayoshi Tomizuka \n
+/Robotics and Automation Letters/ \n
+[https://arxiv.org/pdf/2306.01839 \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/admitlearn.gif}{alt text}{250}{}{https://sites.google.com/view/admitlearn }
+[papers/2023_distributed_ipg.pdf Efficient Sim-to-real Transfer of Contact-Rich Manipulation Skills with Online Admittance Residual Learning]\n
+Xiang Zhang\*, Changhao Wang\*, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi Tomizuka \n
+/CoRL 2023/ \n
+[https://sites.google.com/view/admitlearn \[Website\]]
+[https://openreview.net/pdf?id=gFXVysXh48K \[Paper]]
+~~~
+
+=== Multi-agent Interaction Generation
+~~~
+{}{img_left}{imgs/ipg.gif}{alt text}{250}{}{https://sites.google.com/berkeley.edu/distributed-interaction/}
+[papers/2023_distributed_ipg.pdf Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
+*Lingfeng Sun*, Pin-Yun Hung, Changhao Wang, Masayoshi Tomizuka, Zhuo Xu\n
+/Under review/ \n
+[https://sites.google.com/berkeley.edu/distributed-interaction/ \[Website\]]
+[papers/2023_distributed_ipg.pdf \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/routegan.png}{alt text}{250}{}{https://arxiv.org/abs/2103.00906/}
+[https://arxiv.org/abs/2103.00906/ Diverse Critical Interaction Generation for Planning and Planner Evaluation]\n
+*Lingfeng Sun\**, Zhao-Heng Yin\*, Liting Sun, Masayoshi Tomizuka, Wei Zhan\n
+/IROS 2021/ \n
+[https://ieeexplore.ieee.org/abstract/document/8917031 \[Paper]]
+~~~
+
+=== Grasp Planning
+~~~
+{}{img_left}{imgs/place_oriented.png}{alt text}{250}{}{https://arxiv.org/abs/2304.01290}
+[https://arxiv.org/abs/2304.01290 A Simple Approach for General Task-Oriented Picking using Placing constraints]\n
+*Lingfeng Sun\**, Jen-Wei Wang\*,  Xinghao Zhu, Qiyang Qian, Masayoshi Tomizuka\n
+/Under review/
+[https://arxiv.org/abs/2304.01290 \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/cgpn.gif}{alt text}{250}{}{https://arxiv.org/pdf/2103.15995}
+[https://arxiv.org/pdf/2103.15995 6-dof contrastive grasp proposal network]\n
+*Lingfeng Sun\**, Xinghao Zhu\*, Yongxiang Fan, Masayoshi Tomizuka\n
+/ICRA 2021/
+[https://arxiv.org/pdf/2103.15995 \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/mlgsl.gif}{alt text}{250}{}{https://arxiv.org/pdf/2110.01379 }
+[https://arxiv.org/pdf/2110.01379 Learn to grasp with less supervision: A data-efficient maximum likelihood grasp sampling loss]\n
+Xinghao Zhu, Yefan Zhou, Yongxiang Fan, *Lingfeng Sun*, Jianyu Chen, Masayoshi Tomizuka\n
+/ICRA 2022/
+[https://arxiv.org/pdf/2110.01379  \[Paper]]
+~~~
+
+
+
+=== Behavior Prediction
+~~~
+{}{img_left}{imgs/pseudo.png}{alt text}{250}{}{https://arxiv.org/pdf/2203.15112}
+[https://arxiv.org/pdf/2203.15112 Domain knowledge driven pseudo labels for interpretable goal-conditioned interactive trajectory prediction]\n
+   *Lingfeng Sun\**, Chen Tang\*, Yaru Niu, Enna Sachdeva, Chiho Choi, Teruhisa Misu, Masayoshi Tomizuka, Wei Zhan\n
+/IROS 2022/ \n
+[https://arxiv.org/pdf/2203.15112 \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/pretram.png}{alt text}{250}{}{https://arxiv.org/pdf/2204.10435}
+[https://arxiv.org/pdf/2204.10435 Pretram: Self-supervised pre-training via connecting trajectory and map]\n
+   Chenfeng Xu, Tian Li, Chen Tang, *Lingfeng Sun*, Kurt Keutzer, Masayoshi Tomizuka, Alireza Fathi, Wei Zhan \n
+/ECCV 2022/ \n
+[https://arxiv.org/pdf/2204.10435 \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/prediction-DBN.webp}{alt text}{250}{}{https://ieeexplore.ieee.org/abstract/document/8917031}
+[https://ieeexplore.ieee.org/abstract/document/8917031 Interactive prediction for multiple, heterogeneous traffic participants with multi-agent hybrid dynamic bayesian network]\n
+*Lingfeng Sun*, Wei Zhan, Di Wang, Masayoshi Tomizuka\n
+/ITSC 2019/ \n
+[https://ieeexplore.ieee.org/abstract/document/8917031 \[Paper]]
+~~~
+
