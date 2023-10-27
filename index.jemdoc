@@ -2,12 +2,14 @@
 ==Lingfeng Sun 
 
 ~~~
-{}{img_left}{imgs/lingfeng.jpg}{alt text}{}{160}{}
+{}{img_left}{imgs/lingfeng.jpg}{alt text}{}{200}{}
 Ph.D. Candidate,\n 
 [https://msc.berkeley.edu/index.html Mechanical System Control Lab], \n
 [https://www.berkeley.edu/ UC Berkeley]\n
 
-Email: /lingfengsun/ \[AT\] berkeley \[DOT\] edu
+Email: /lingfengsun/ \[AT\] berkeley \[DOT\] edu  
+
+ [https://scholar.google.com/citations?user=Uxb6wbkAAAAJ&hl=en&oi=ao Google Scholar] / [files/CV.pdf CV]
 ~~~
 
 == About me
@@ -55,6 +57,14 @@ Graduate Student Instructor, *ME 232 Advanced Control Systems I*, UC Berkeley, F
 *Lingfeng Sun\**, Haichao Zhang\*, Wei Xu, Masayoshi Tomizuka \n
 /Robotics and Automation Letters/ \n
 [https://arxiv.org/pdf/2306.01839 \[Paper]]
+~~~
+
+~~~
+{}{img_left}{imgs/assembly.gif}{alt text}{250}{}{}
+[index.html Multi-level Reasoning for Robotic Assembly: From Sequence Inference to Contact Selection]\n
+Xinghao Zhu, Devesh K. Jha, Diego Romeres, *Lingfeng Sun*, Masayoshi Tomizuka, Anoop Cherian \n
+/Under review/ \n
+[index.html \[Paper (coming soon)\]]
 ~~~
 
 ~~~
