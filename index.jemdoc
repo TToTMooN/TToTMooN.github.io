@@ -30,8 +30,11 @@ Research Intern, [https://en.horizon.cc/ Horizon Robotics], 05\/2021 - 04\/2022
 Graduate Student Instructor, *ME 232 Advanced Control Systems I*, UC Berkeley, Fall 2022\n
 
 == Selected Research 
-
-=== Robotic Skill Learning
+~~~
+{}{raw}
+<h3 class="collapsible"> Robot Skill Learning [-]</h3>
+<div class="content" style="display:block;">
+~~~
 
 ~~~
 {}{img_left}{imgs/llm.png}{alt text}{250}{}{}
@@ -77,7 +80,14 @@ Xiang Zhang\*, Changhao Wang\*, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi
 [https://openreview.net/pdf?id=gFXVysXh48K \[Paper]]
 ~~~
 
-=== Multi-agent Interaction Generation
+{{</div>}}
+
+~~~
+{}{raw}
+<h3 class="collapsible"> Multi-agent Interaction Generation [-]</h3>
+<div class="content" style="display:block;">
+~~~
+
 ~~~
 {}{img_left}{imgs/ipg.gif}{alt text}{250}{}{https://sites.google.com/berkeley.edu/distributed-interaction/}
 [papers/2023_distributed_ipg.pdf Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
@@ -95,7 +105,14 @@ Xiang Zhang\*, Changhao Wang\*, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi
 [https://ieeexplore.ieee.org/abstract/document/8917031 \[Paper]]
 ~~~
 
-=== Grasp Planning
+{{</div>}}
+
+~~~
+{}{raw}
+<h3 class="collapsible"> Grasp Planning [-]</h3>
+<div class="content" style="display:block;">
+~~~
+
 ~~~
 {}{img_left}{imgs/place_oriented.png}{alt text}{250}{}{https://arxiv.org/abs/2304.01290}
 [https://arxiv.org/abs/2304.01290 A Simple Approach for General Task-Oriented Picking using Placing constraints]\n
@@ -120,9 +137,14 @@ Xinghao Zhu, Yefan Zhou, Yongxiang Fan, *Lingfeng Sun*, Jianyu Chen, Masayoshi T
 [https://arxiv.org/pdf/2110.01379  \[Paper]]
 ~~~
 
+{{</div>}}
 
+~~~
+{}{raw}
+<h3 class="collapsible"> Behavior Prediction [-]</h3>
+<div class="content" style="display:block;">
+~~~
 
-=== Behavior Prediction
 ~~~
 {}{img_left}{imgs/pseudo.png}{alt text}{250}{}{https://arxiv.org/pdf/2203.15112}
 [https://arxiv.org/pdf/2203.15112 Domain knowledge driven pseudo labels for interpretable goal-conditioned interactive trajectory prediction]\n
@@ -147,3 +169,24 @@ Xinghao Zhu, Yefan Zhou, Yongxiang Fan, *Lingfeng Sun*, Jianyu Chen, Masayoshi T
 [https://ieeexplore.ieee.org/abstract/document/8917031 \[Paper]]
 ~~~
 
+{{</div>}}
+
+~~~
+{}{raw}
+<script>
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block" || content.style.display === "") {
+      content.style.display = "none";
+      this.innerHTML = this.innerHTML.replace("[-]", "[+]");
+    } else {
+      content.style.display = "block";
+      this.innerHTML = this.innerHTML.replace("[+]", "[-]");
+    }
+  });
+}
+</script>
+~~~

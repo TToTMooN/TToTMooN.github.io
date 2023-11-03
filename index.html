@@ -40,7 +40,8 @@ and B.S. in Electrical and Computer Engineering from <a href="http://ji.sjtu.edu
 <h2>Teaching</h2>
 <p>Graduate Student Instructor, <b>ME 232 Advanced Control Systems I</b>, UC Berkeley, Fall 2022<br /></p>
 <h2>Selected Research </h2>
-<h3>Robotic Skill Learning</h3>
+<h3 class="collapsible"> Robot Skill Learning [-]</h3>
+<div class="content" style="display:block;">
 <table class="imgtable"><tr><td>
 <img src="imgs/llm.png" alt="alt text" width="250px" />&nbsp;</td>
 <td align="left"><p><a href="index.html">LLM-POP: Large Language Model for Partially Observable Task Planning</a><br />
@@ -80,7 +81,9 @@ Xiang Zhang*, Changhao Wang*, <b>Lingfeng Sun</b>, Zheng Wu, Xinghao Zhu, Masayo
 <a href="https://sites.google.com/view/admitlearn">[Website]</a>
 <a href="https://openreview.net/pdf?id=gFXVysXh48K">[Paper</a>]</p>
 </td></tr></table>
-<h3>Multi-agent Interaction Generation</h3>
+<p></div></p>
+<h3 class="collapsible"> Multi-agent Interaction Generation [-]</h3>
+<div class="content" style="display:block;">
 <table class="imgtable"><tr><td>
 <a href="https://sites.google.com/berkeley.edu/distributed-interaction/"><img src="imgs/ipg.gif" alt="alt text" width="250px" /></a>&nbsp;</td>
 <td align="left"><p><a href="papers/2023_distributed_ipg.pdf">Distributed Multi-agent Interaction Generation with Imagined Potential Games</a><br />
@@ -96,7 +99,9 @@ Xiang Zhang*, Changhao Wang*, <b>Lingfeng Sun</b>, Zheng Wu, Xinghao Zhu, Masayo
 <i>IROS 2021</i> <br />
 <a href="https://ieeexplore.ieee.org/abstract/document/8917031">[Paper</a>]</p>
 </td></tr></table>
-<h3>Grasp Planning</h3>
+<p></div></p>
+<h3 class="collapsible"> Grasp Planning [-]</h3>
+<div class="content" style="display:block;">
 <table class="imgtable"><tr><td>
 <a href="https://arxiv.org/abs/2304.01290"><img src="imgs/place_oriented.png" alt="alt text" width="250px" /></a>&nbsp;</td>
 <td align="left"><p><a href="https://arxiv.org/abs/2304.01290">A Simple Approach for General Task-Oriented Picking using Placing constraints</a><br />
@@ -118,7 +123,9 @@ Xinghao Zhu, Yefan Zhou, Yongxiang Fan, <b>Lingfeng Sun</b>, Jianyu Chen, Masayo
 <i>ICRA 2022</i>
 <a href="https://arxiv.org/pdf/2110.01379">[Paper</a>]</p>
 </td></tr></table>
-<h3>Behavior Prediction</h3>
+<p></div></p>
+<h3 class="collapsible"> Behavior Prediction [-]</h3>
+<div class="content" style="display:block;">
 <table class="imgtable"><tr><td>
 <a href="https://arxiv.org/pdf/2203.15112"><img src="imgs/pseudo.png" alt="alt text" width="250px" /></a>&nbsp;</td>
 <td align="left"><p><a href="https://arxiv.org/pdf/2203.15112">Domain knowledge driven pseudo labels for interpretable goal-conditioned interactive trajectory prediction</a><br />
@@ -140,6 +147,23 @@ Chenfeng Xu, Tian Li, Chen Tang, <b>Lingfeng Sun</b>, Kurt Keutzer, Masayoshi To
 <i>ITSC 2019</i> <br />
 <a href="https://ieeexplore.ieee.org/abstract/document/8917031">[Paper</a>]</p>
 </td></tr></table>
+<p></div></p>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block" || content.style.display === "") {
+      content.style.display = "none";
+      this.innerHTML = this.innerHTML.replace("[-]", "[+]");
+    } else {
+      content.style.display = "block";
+      this.innerHTML = this.innerHTML.replace("[+]", "[-]");
+    }
+  });
+}
+</script>
 </td>
 </tr>
 </table>

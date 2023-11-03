@@ -397,3 +397,7 @@ table.imgtable td {
     border: none;
     text-align: left;
 }
+.active,
+.collapsible:hover {
+    background-color: #cecccc;
+}
