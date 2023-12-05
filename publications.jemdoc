@@ -5,7 +5,7 @@
 \* stands for equal contribution.
 
 === In submission
-- [papers/2023_distributed_ipg.pdf Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
+- [https://arxiv.org/abs/2310.01614 Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
    *Lingfeng Sun*, Pin-Yun Hung, Changhao Wang, Masayoshi Tomizuka, Zhuo Xu\n
    [https://sites.google.com/berkeley.edu/distributed-interaction/ \[Website\]]
 
@@ -18,7 +18,7 @@
    Xiang Zhang, Changhao Wang, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi Tomizuka \n
    in CoRL 2023 [https://sites.google.com/view/admitlearn \[Website\]]
 
-- [papers/2023_robio_soft.pdf Control of Soft Pneumatic Actuators with Approximated Dynamical Modeling]\n
+- [https://arxiv.org/pdf/2310.01740.pdf Control of Soft Pneumatic Actuators with Approximated Dynamical Modeling]\n
    Wu-Te Yang, Burak Kurkcu, Motohiro Hirao, *Lingfeng Sun*, Xinghao Zhu, Zhizhou Zhang, Grace X. Gu, and Masayoshi Tomizuka\n
    in ROBIO 2023
 
@@ -26,7 +26,7 @@
    *Lingfeng Sun\**, Haichao Zhang\*, Wei Xu, Masayoshi Tomizuka \n
    in IEEE Robotics and Automation Letters
 
-- [papers/2023_itsc_adaptive_voxel.pdf Adaptive Spatio-Temporal Voxels Based Trajectory Planning for Autonomous Driving in Highway Traffic Flow] \n
+- [https://arxiv.org/abs/2310.02625 Adaptive Spatio-Temporal Voxels Based Trajectory Planning for Autonomous Driving in Highway Traffic Flow] \n
    Zhiqiang Jian, Songyi Zhang, *Lingfeng Sun*, Wei Zhan, Masayoshi Tomizuka, and Nanning Zheng\n
    in ITSC 2023
 
