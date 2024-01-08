@@ -28,6 +28,8 @@ Research Intern, [https://en.horizon.cc/ Horizon Robotics], 05\/2021 - 04\/2022
 
 == Teaching
 Graduate Student Instructor, *ME 232 Advanced Control Systems I*, UC Berkeley, Fall 2022\n
+Graduate Student Instructor, *ME 233 Advanced Control Systems II*, UC Berkeley, Spring 2024\n
+
 
 == Selected Research 
 ~~~
@@ -40,9 +42,8 @@ Graduate Student Instructor, *ME 232 Advanced Control Systems I*, UC Berkeley, F
 {}{img_left}{imgs/llm.png}{alt text}{250}{}{}
 [index.html LLM-POP: Large Language Model for Partially Observable Task Planning]\n
 *Lingfeng Sun*, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel, Xinghao Zhu, Masayoshi Tomizuka, Diego Romeres \n
-/Workshop on Instruction Tuning and Instruction Following, NeurIPS 2023/ \n
-/Under review/ \n
-[papers/2023_llm_pop.pdf \[Paper\]]
+/*Honorable Mention*, [https://an-instructive-workshop.github.io/ Workshop on Instruction Tuning and Instruction Following], NeurIPS 2023/ \n
+[https://arxiv.org/abs/2312.06876 \[Paper\]]
 ~~~
 
 ~~~
@@ -68,7 +69,7 @@ Graduate Student Instructor, *ME 232 Advanced Control Systems I*, UC Berkeley, F
 [index.html Multi-level Reasoning for Robotic Assembly: From Sequence Inference to Contact Selection]\n
 Xinghao Zhu, Devesh K. Jha, Diego Romeres, *Lingfeng Sun*, Masayoshi Tomizuka, Anoop Cherian \n
 /Under review/ \n
-[index.html \[Paper (coming soon)\]]
+[https://arxiv.org/abs/2312.10571 \[Paper\]]
 ~~~
 
 ~~~
