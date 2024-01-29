@@ -4,15 +4,18 @@
 
 \* stands for equal contribution.
 
-=== In submission
+=== Publications 
 - [https://arxiv.org/abs/2310.01614 Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
    *Lingfeng Sun*, Pin-Yun Hung, Changhao Wang, Masayoshi Tomizuka, Zhuo Xu\n
-   [https://sites.google.com/berkeley.edu/distributed-interaction/ \[Website\]]
+   in ACC 2024 [https://sites.google.com/berkeley.edu/distributed-interaction/ \[Website\]]
 
 - [https://arxiv.org/abs/2312.06876 LLM-POP: Large Language Model for Partial Observable Task Planning]\n
    *Lingfeng Sun*, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel, Xinghao Zhu, Masayoshi Tomizuka, Diego Romeres\n
+   in ICRA 2024
 
-=== Publications 
+- [https://arxiv.org/abs/2312.10571 Multi-level Reasoning for Robotic Assembly: From Sequence Inference to Contact Selection]\n
+   Xinghao Zhu, Devesh K. Jha, Diego Romeres, *Lingfeng Sun*, Masayoshi Tomizuka, Anoop Cherian \n
+   in ICRA 2024
 
 - [https://openreview.net/pdf?id=gFXVysXh48K Efficient Sim-to-real Transfer of Contact-Rich Manipulation Skills with Online Admittance Residual Learning] \n
    Xiang Zhang, Changhao Wang, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi Tomizuka \n

@@ -42,6 +42,7 @@ Graduate Student Instructor, *ME 233 Advanced Control Systems II*, UC Berkeley, 
 {}{img_left}{imgs/llm.png}{alt text}{250}{}{}
 [index.html LLM-POP: Large Language Model for Partially Observable Task Planning]\n
 *Lingfeng Sun*, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel, Xinghao Zhu, Masayoshi Tomizuka, Diego Romeres \n
+/ICRA 2024/ \n
 /*Honorable Mention*, [https://an-instructive-workshop.github.io/ Workshop on Instruction Tuning and Instruction Following], NeurIPS 2023/ \n
 [https://arxiv.org/abs/2312.06876 \[Paper\]]
 ~~~
@@ -66,9 +67,9 @@ Graduate Student Instructor, *ME 233 Advanced Control Systems II*, UC Berkeley, 
 
 ~~~
 {}{img_left}{imgs/assembly.gif}{alt text}{250}{}{}
-[index.html Multi-level Reasoning for Robotic Assembly: From Sequence Inference to Contact Selection]\n
+[https://arxiv.org/abs/2312.10571 Multi-level Reasoning for Robotic Assembly: From Sequence Inference to Contact Selection]\n
 Xinghao Zhu, Devesh K. Jha, Diego Romeres, *Lingfeng Sun*, Masayoshi Tomizuka, Anoop Cherian \n
-/Under review/ \n
+/ICRA 2024/ \n
 [https://arxiv.org/abs/2312.10571 \[Paper\]]
 ~~~
 
@@ -93,7 +94,7 @@ Xiang Zhang\*, Changhao Wang\*, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi
 {}{img_left}{imgs/ipg.gif}{alt text}{250}{}{https://sites.google.com/berkeley.edu/distributed-interaction/}
 [https://arxiv.org/abs/2310.01614 Distributed Multi-agent Interaction Generation with Imagined Potential Games]\n
 *Lingfeng Sun*, Pin-Yun Hung, Changhao Wang, Masayoshi Tomizuka, Zhuo Xu\n
-/Under review/ \n
+/ACC 2024/ \n
 [https://sites.google.com/berkeley.edu/distributed-interaction/ \[Website\]]
 [https://arxiv.org/abs/2310.01614 \[Paper]]
 ~~~
