@@ -39,8 +39,18 @@ Graduate Student Instructor, *ME 233 Advanced Control Systems II*, UC Berkeley, 
 ~~~
 
 ~~~
+{}{img_left}{imgs/efficient-locomotion.gif}{alt text}{250}{}{index.html}
+[index.html Adaptive Energy Regularization for Autonomous Gait Transition and Energy-Efficient Quadruped Locomotion]\n
+*Lingfeng Sun\**, Boyuan Liang\*, Xinghao Zhu\*, Bike Zhang, Koushil Sreenath, Masayoshi Tomizuka \n
+/in submission/ \n
+[index.html \[Website\]]
+[index.html \[Paper\]]
+[index.html \[Code\]]
+~~~
+
+~~~
 {}{img_left}{imgs/llm.png}{alt text}{250}{}{}
-[index.html LLM-POP: Large Language Model for Partially Observable Task Planning]\n
+[https://arxiv.org/abs/2312.06876 LLM-POP: Large Language Model for Partially Observable Task Planning]\n
 *Lingfeng Sun*, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel, Xinghao Zhu, Masayoshi Tomizuka, Diego Romeres \n
 /ICRA 2024/ \n
 /*Honorable Mention*, [https://an-instructive-workshop.github.io/ Workshop on Instruction Tuning and Instruction Following], NeurIPS 2023/ \n
