@@ -13,11 +13,13 @@ Email: /lingfengsun/ \[AT\] berkeley \[DOT\] edu
 ~~~
 
 == About me
-I am a PhD student in robotics at [https://www.berkeley.edu/ University of California, Berkeley] adviced by [https://me.berkeley.edu/people/masayoshi-tomizuka/ Prof. Masayoshi Tomizuka].
+I am a final year PhD student in robotics at [https://www.berkeley.edu/ University of California, Berkeley] adviced by [https://me.berkeley.edu/people/masayoshi-tomizuka/ Prof. Masayoshi Tomizuka].
 I received B.S. in Mechanical Engineering from [https://umich.edu/ University of Michigan, Ann Arbor], 
 and B.S. in Electrical and Computer Engineering from [http://ji.sjtu.edu.cn/ Joint Institute, Shanghai Jiao Tong University].
 
-My research interest lies in *Robotics* (skill learning, control and optimization) and *Autonomous driving* (prediction, behavior generation).
+My research interest lies in *Robotics* (skill learning, control and planning) and *Autonomous driving* (interaction generation, behavior prediction).
+
+I'm joining [https://theaiinstitute.com/ Boston Dynamics AI Institute] as a Research Scientist in June, 2024.
 
 == Experience
 Research Intern,  [https://www.merl.com/ Mitsubishi Electrical Research Laboratories], 05\/2023 - 09\/2023\n
@@ -40,12 +42,11 @@ Graduate Student Instructor, *ME 233 Advanced Control Systems II*, UC Berkeley, 
 
 ~~~
 {}{img_left}{imgs/efficient-locomotion.gif}{alt text}{250}{}{index.html}
-[index.html Adaptive Energy Regularization for Autonomous Gait Transition and Energy-Efficient Quadruped Locomotion]\n
+[https://sites.google.com/berkeley.edu/efficient-locomotion Adaptive Energy Regularization for Autonomous Gait Transition and Energy-Efficient Quadruped Locomotion]\n
 *Lingfeng Sun\**, Boyuan Liang\*, Xinghao Zhu\*, Bike Zhang, Koushil Sreenath, Masayoshi Tomizuka \n
 /in submission/ \n
-[index.html \[Website\]]
-[index.html \[Paper\]]
-[index.html \[Code\]]
+[https://sites.google.com/berkeley.edu/efficient-locomotion \[Website\]]
+[https://https://arxiv.org/abs/2403.20001 \[Paper\]]
 ~~~
 
 ~~~
@@ -129,7 +130,7 @@ Xiang Zhang\*, Changhao Wang\*, *Lingfeng Sun*, Zheng Wu, Xinghao Zhu, Masayoshi
 {}{img_left}{imgs/place_oriented.png}{alt text}{250}{}{https://arxiv.org/abs/2304.01290}
 [https://arxiv.org/abs/2304.01290 A Simple Approach for General Task-Oriented Picking using Placing constraints]\n
 *Lingfeng Sun\**, Jen-Wei Wang\*,  Xinghao Zhu, Qiyang Qian, Masayoshi Tomizuka\n
-/Under review/
+/Preprint/
 [https://arxiv.org/abs/2304.01290 \[Paper]]
 ~~~
 
