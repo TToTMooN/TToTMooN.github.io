@@ -1,0 +1,553 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Lingfeng Sun</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+    <link rel="stylesheet" href="https://use.typekit.net/quv7bsd.css">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- (Optional) Insert analytics or additional scripts here -->
+    <style>
+        /* Publication tabs styling */
+        .pub-container {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .pub-tabs {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            margin-right: 30px;
+        }
+
+        .pub-tab {
+            background-color: #f1f1f1;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            text-align: left;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .pub-tab:hover {
+            background-color: #ddd;
+        }
+
+        .pub-tab.active {
+            background-color: #003373;
+            color: white;
+        }
+
+        .pub-content {
+            display: none;
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .pub-content.active {
+            display: block;
+        }
+
+        .pub-content h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div id="main">
+        <!-- Header Navigation -->
+        <header id="header">
+            <div style="float: left; font-size: 18px; font-weight: 600; color: #000000; line-height: 58px;">Lingfeng Sun
+                (孙凌峰)</div>
+            <div style="float: right;">
+                <a href="index.html">HOME</a>
+            </div>
+            <div style="clear: both;"></div>
+        </header>
+
+        <!-- Profile Section -->
+        <div id="profile">
+            <div id="profile-pic">
+                <img src="imgs/lingfeng.jpg" alt="Lingfeng Sun" />
+                <p>
+                    <a href="https://scholar.google.com/citations?user=Uxb6wbkAAAAJ&amp;hl=en" title="Google Scholar">
+                        <i class="fa-solid fa-graduation-cap" style="font-size: 18px;"></i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="mailto:lingfengsun@berkeley.edu" title="Email">
+                        <i class="fa-solid fa-envelope" style="font-size: 18px;"></i>
+                    </a>
+                </p>
+            </div>
+            <div id="profile-intro">
+                <p>
+                    I am a Research Scientist at <a href="https://theaiinstitute.com/"><i>Boston Dynamics AI
+                            Institute</i></a>. I received my PhD in robotics from
+                    <a href="https://www.berkeley.edu/">University of California, Berkeley</a>, advised by
+                    <a href="https://me.berkeley.edu/people/masayoshi-tomizuka/">Prof. Masayoshi Tomizuka</a>.
+                    I finished my undergraduate study at <a href="https://umich.edu/">University of Michigan</a>,
+                    and <a href="http://ji.sjtu.edu.cn/">Shanghai Jiao Tong University</a>.
+                </p>
+                <p>
+                    Previously, I worked as a Research Intern at <a href="https://www.merl.com/">MERL</a>, <a
+                        href="https://everydayrobots.com/">Everyday Robots (Google X)</a>,
+                    and <a href="https://en.horizon.cc/">Horizon Robotics</a>.
+                </p>
+                <p>
+                    I do research in <span style="color:var(--primary-color);">Robotics</span> (skill learning, control
+                    and planning) and
+                    <span style="color:var(--primary-color);">Autonomous driving</span> (interaction generation,
+                    prediction).
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+        <!-- Publications Section -->
+        <div class="section publications">
+            <div class="section-header">
+                <h1>Publications</h1>
+                <button class="pub-tab active" onclick="openPubCategory(event, 'skill-learning')">Robot Skill
+                    Learning</button>
+                <button class="pub-tab" onclick="openPubCategory(event, 'interaction')">Multi-agent Interaction</button>
+                <button class="pub-tab" onclick="openPubCategory(event, 'prediction')">Behavior Prediction</button>
+                <button class="pub-tab" onclick="openPubCategory(event, 'grasp')">Grasp Planning</button>
+            </div>
+
+            <!-- Tab content -->
+            <div id="skill-learning" class="pub-content active">
+                <!-- Real-is-Sim -->
+                <div class="research-proj">
+                    <a href="https://realissim.rai-inst.com/" class="research-thumb">
+                        <img src="imgs/realissim.gif" alt="Real-is-Sim" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://realissim.rai-inst.com/" class="research-proj-title">
+                            Real-is-Sim: Bridging the Sim-to-Real Gap with a Dynamic Digital Twin
+                        </a>
+                        <p>
+                            Jad Abou-Chakra, <strong>Lingfeng Sun</strong>, Krishan Rana, Brandon May, Karl
+                            Schmeckpeper, Maria Vittoria Mnniti, Laura Herlant<br>
+                            <i>in submission</i><br>
+                            <a href="https://realissim.rai-inst.com/">[Website]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- On-Robot Reinforcement Learning -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/abs/2410.19989" class="research-thumb">
+                        <img src="imgs/gcr.gif" alt="Goal-Contrastive Rewards" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2410.19989" class="research-proj-title">
+                            On-Robot Reinforcement Learning with Goal-Contrastive Rewards
+                        </a>
+                        <p>
+                            Ondrej Biza, Thomas Weng, <strong>Lingfeng Sun</strong>, Karl Schmeckpeper, Tarik
+                            Kelestemur, Yecheng Jason Ma, Robert Platt, Jan-Willem van de Meent, Lawson L. S. Wong<br>
+                            <i>ICRA 2025</i><br>
+                            <a href="https://arxiv.org/abs/2410.19989">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Adaptive Energy Regularization -->
+                <div class="research-proj">
+                    <a href="https://sites.google.com/berkeley.edu/efficient-locomotion" class="research-thumb">
+                        <img src="imgs/efficient-locomotion.gif" alt="Efficient Locomotion" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://sites.google.com/berkeley.edu/efficient-locomotion"
+                            class="research-proj-title">
+                            Adaptive Energy Regularization for Autonomous Gait Transition and Energy-Efficient Quadruped
+                            Locomotion
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Boyuan Liang*, Xinghao Zhu*, Bike Zhang, Koushil Sreenath,
+                            Masayoshi Tomizuka<br>
+                            <i>ICRA 2025</i><br>
+                            <a href="https://sites.google.com/berkeley.edu/efficient-locomotion">[Website]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="https://arxiv.org/abs/2403.20001">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- LLM-POP -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/abs/2312.06876" class="research-thumb zoomable">
+                        <img src="imgs/llmpop.gif" alt="LLM-POP" class="zoomable" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2312.06876" class="research-proj-title">
+                            LLM-POP: Large Language Model for Partially Observable Task Planning
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun</strong>, Devesh K. Jha, Chiori Hori, Siddarth Jain, Radu Corcodel,
+                            Xinghao
+                            Zhu, Masayoshi Tomizuka, Diego Romeres<br>
+                            <i>ICRA 2024</i><br>
+                            <i><b>Honorable Mention</b>, <a href="https://an-instructive-workshop.github.io/">Workshop
+                                    on
+                                    Instruction Tuning and Instruction Following</a>, NeurIPS 2023</i><br>
+                            <a href="https://arxiv.org/abs/2312.06876">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- AdmitLearn -->
+                <div class="research-proj">
+                    <a href="https://sites.google.com/view/admitlearn" class="research-thumb">
+                        <img src="imgs/admitlearn.gif" alt="AdmitLearn" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="papers/2023_distributed_ipg.pdf" class="research-proj-title">
+                            Efficient Sim-to-real Transfer of Contact-Rich Manipulation Skills with Online Admittance
+                            Residual
+                            Learning
+                        </a>
+                        <p>
+                            Xiang Zhang*, Changhao Wang*, <strong>Lingfeng Sun</strong>, Zheng Wu, Xinghao Zhu,
+                            Masayoshi
+                            Tomizuka<br>
+                            <i>CoRL 2023</i><br>
+                            <a href="https://sites.google.com/view/admitlearn">[Website]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="https://openreview.net/pdf?id=gFXVysXh48K">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- PaCo -->
+                <div class="research-proj">
+                    <a href="https://sites.google.com/site/hczhang1/projects/paco-mtrl" class="research-thumb">
+                        <img src="imgs/mtrl.gif" alt="PaCo" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/86b8ad667206fb9a52ae575fbf1cd6be-Paper-Conference.pdf"
+                            class="research-proj-title">
+                            PaCo: Parameter-Compositional Multi-Task Reinforcement Learning
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Haichao Zhang*, Wei Xu, Masayoshi Tomizuka<br>
+                            <i>NeurIPS 2022</i><br>
+                            <a href="https://sites.google.com/site/hczhang1/projects/paco-mtrl">[Website]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a
+                                href="https://proceedings.neurips.cc/paper_files/paper/2022/file/86b8ad667206fb9a52ae575fbf1cd6be-Paper-Conference.pdf">[Paper]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="https://github.com/TToTMooN/paco-mtrl">[Code]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Efficient Multi-Task -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/pdf/2306.01839" class="research-thumb">
+                        <img src="imgs/taco.png" alt="Efficient Multi-Task" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/pdf/2306.01839" class="research-proj-title">
+                            Efficient Multi-Task and Transfer Reinforcement Learning with Parameter-Compositional
+                            Framework
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Haichao Zhang*, Wei Xu, Masayoshi Tomizuka<br>
+                            <i>Robotics and Automation Letters</i><br>
+                            <a href="https://arxiv.org/pdf/2306.01839">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Multi-level Reasoning -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/abs/2312.10571" class="research-thumb zoomable">
+                        <img src="imgs/assembly.gif" alt="Multi-level Reasoning" class="zoomable" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2312.10571" class="research-proj-title">
+                            Multi-level Reasoning for Robotic Assembly: From Sequence Inference to Contact Selection
+                        </a>
+                        <p>
+                            Xinghao Zhu, Devesh K. Jha, Diego Romeres, <strong>Lingfeng Sun</strong>, Masayoshi
+                            Tomizuka, Anoop
+                            Cherian<br>
+                            <i>ICRA 2024</i><br>
+                            <a href="https://arxiv.org/abs/2312.10571">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="interaction" class="pub-content">
+                <!-- Imagined Potential Games -->
+                <div class="research-proj">
+                    <a href="https://sites.google.com/view/simulate-learn-interact" class="research-thumb zoomable">
+                        <img src="imgs/ipg_new.gif" alt="Imagined Potential Games" class="zoomable" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2411.03669" class="research-proj-title">
+                            Imagined Potential Games: A Framework for Simulating, Learning and Evaluating Interactive
+                            Behaviors
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun</strong>, Yixiao Wang, Pin-Yun Hung, Changhao Wang, Xiang Zhang, Zhuo
+                            Xu, Masayoshi Tomizuka<br>
+                            <i>arXiv preprint</i><br>
+                            <a href="https://sites.google.com/view/simulate-learn-interact">[Website]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="https://arxiv.org/abs/2411.03669">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Distributed Multi-agent -->
+                <div class="research-proj">
+                    <a href="https://sites.google.com/berkeley.edu/distributed-interaction/"
+                        class="research-thumb zoomable">
+                        <img src="imgs/ipg.gif" alt="Distributed Multi-agent" class="zoomable" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2310.01614" class="research-proj-title">
+                            Distributed Multi-agent Interaction Generation with Imagined Potential Games
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun</strong>, Pin-Yun Hung, Changhao Wang, Masayoshi Tomizuka, Zhuo Xu<br>
+                            <i>ACC 2024</i><br>
+                            <a href="https://sites.google.com/berkeley.edu/distributed-interaction/">[Website]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="https://arxiv.org/abs/2310.01614">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Diverse Critical Interaction -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/abs/2103.00906/" class="research-thumb">
+                        <img src="imgs/routegan.png" alt="RouteGAN" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2103.00906/" class="research-proj-title">
+                            Diverse Critical Interaction Generation for Planning and Planner Evaluation
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Zhao-Heng Yin*, Liting Sun, Masayoshi Tomizuka, Wei Zhan<br>
+                            <i>IROS 2021</i><br>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/8917031">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="prediction" class="pub-content">
+                <!-- Optimizing Diffusion Models -->
+                <div class="research-proj">
+                    <a href="https://yixiaowang7.github.io/OptTrajDiff_Page/" class="research-thumb">
+                        <img src="imgs/optdiff.png" alt="Optimizing Diffusion Models" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2408.00766" class="research-proj-title">
+                            Optimizing Diffusion Models for Joint Trajectory Prediction and Controllable Generation
+                        </a>
+                        <p>
+                            Yixiao Wang, Chen Tang, <strong>Lingfeng Sun</strong>, Simone Rossi, Yichen Xie, Chensheng
+                            Peng, Thomas Hannagan, Stefano Sabatini, Nicola Poerio, Masayoshi Tomizuka, Wei Zhan<br>
+                            <i>ECCV 2024</i><br>
+                            <a href="https://yixiaowang7.github.io/OptTrajDiff_Page/">[Website]</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="https://arxiv.org/abs/2408.00766">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Domain knowledge -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/pdf/2203.15112" class="research-thumb">
+                        <img src="imgs/pseudo.png" alt="Domain knowledge" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/pdf/2203.15112" class="research-proj-title">
+                            Domain knowledge driven pseudo labels for interpretable goal-conditioned interactive
+                            trajectory
+                            prediction
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Chen Tang*, Yaru Niu, Enna Sachdeva, Chiho Choi, Teruhisa
+                            Misu,
+                            Masayoshi Tomizuka, Wei Zhan<br>
+                            <i>IROS 2022</i><br>
+                            <a href="https://arxiv.org/pdf/2203.15112">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Pretram -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/pdf/2204.10435" class="research-thumb">
+                        <img src="imgs/pretram.png" alt="Pretram" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/pdf/2204.10435" class="research-proj-title">
+                            Pretram: Self-supervised pre-training via connecting trajectory and map
+                        </a>
+                        <p>
+                            Chenfeng Xu, Tian Li, Chen Tang, <strong>Lingfeng Sun</strong>, Kurt Keutzer, Masayoshi
+                            Tomizuka,
+                            Alireza Fathi, Wei Zhan<br>
+                            <i>ECCV 2022</i><br>
+                            <a href="https://arxiv.org/pdf/2204.10435">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Interactive prediction -->
+                <div class="research-proj">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/8917031" class="research-thumb">
+                        <img src="imgs/prediction-DBN.webp" alt="Interactive prediction" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8917031" class="research-proj-title">
+                            Interactive prediction for multiple, heterogeneous traffic participants with multi-agent
+                            hybrid
+                            dynamic bayesian network
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun</strong>, Wei Zhan, Di Wang, Masayoshi Tomizuka<br>
+                            <i>ITSC 2019</i><br>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/8917031">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="grasp" class="pub-content">
+
+
+                <!-- 6-dof contrastive grasp -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/pdf/2103.15995" class="research-thumb">
+                        <img src="imgs/cgpn.gif" alt="6-dof contrastive grasp" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/pdf/2103.15995" class="research-proj-title">
+                            6-dof contrastive grasp proposal network
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Xinghao Zhu*, Yongxiang Fan, Masayoshi Tomizuka<br>
+                            <i>ICRA 2021</i><br>
+                            <a href="https://arxiv.org/pdf/2103.15995">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Learn to grasp -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/pdf/2110.01379" class="research-thumb">
+                        <img src="imgs/mlgsl.gif" alt="Learn to grasp" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/pdf/2110.01379" class="research-proj-title">
+                            Learn to grasp with less supervision: A data-efficient maximum likelihood grasp sampling
+                            loss
+                        </a>
+                        <p>
+                            Xinghao Zhu, Yefan Zhou, Yongxiang Fan, <strong>Lingfeng Sun</strong>, Jianyu Chen,
+                            Masayoshi
+                            Tomizuka<br>
+                            <i>ICRA 2022</i><br>
+                            <a href="https://arxiv.org/pdf/2110.01379">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Task-Oriented Picking -->
+                <div class="research-proj">
+                    <a href="https://arxiv.org/abs/2304.01290" class="research-thumb">
+                        <img src="imgs/place_oriented.png" alt="Task-Oriented Picking" />
+                    </a>
+                    <div class="research-proj-content">
+                        <a href="https://arxiv.org/abs/2304.01290" class="research-proj-title">
+                            A Simple Approach for General Task-Oriented Picking using Placing constraints
+                        </a>
+                        <p>
+                            <strong>Lingfeng Sun*</strong>, Jen-Wei Wang*, Xinghao Zhu, Qiyang Qian, Masayoshi
+                            Tomizuka<br>
+                            <i>Tech Report</i><br>
+                            <a href="https://arxiv.org/abs/2304.01290">[Paper]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Teaching Section -->
+        <div class="section teaching">
+            <h1>Teaching</h1>
+            <ul>
+                <li>Graduate Student Instructor, <b>ME 232 Advanced Control Systems I</b>, UC Berkeley, Fall 2022</li>
+                <li>Graduate Student Instructor, <b>ME 233 Advanced Control Systems II</b>, UC Berkeley, Spring 2024
+                </li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+    </div>
+
+    <!-- (Optional) JavaScript for toggling additional content -->
+    <script>
+        // Example: Toggle "more talks" or "more publications" sections if you want expandable lists
+        function toggleSection(id, btnShow, btnHide) {
+            var section = document.getElementById(id);
+            var showBtn = document.getElementById(btnShow);
+            var hideBtn = document.getElementById(btnHide);
+            if (section.style.display === "none" || section.style.display === "") {
+                section.style.display = "block";
+                showBtn.style.display = "none";
+                hideBtn.style.display = "inline";
+            } else {
+                section.style.display = "none";
+                showBtn.style.display = "inline";
+                hideBtn.style.display = "none";
+            }
+        }
+        // For example:
+        // document.getElementById("moreTalksBtn").onclick = function() { toggleSection("moreTalks", "moreTalksBtn", "lessTalksBtn"); };
+
+        function openPubCategory(evt, categoryName) {
+            // Hide all pub content
+            var pubContents = document.getElementsByClassName("pub-content");
+            for (var i = 0; i < pubContents.length; i++) {
+                pubContents[i].classList.remove("active");
+            }
+
+            // Remove active class from all tabs
+            var pubTabs = document.getElementsByClassName("pub-tab");
+            for (var i = 0; i < pubTabs.length; i++) {
+                pubTabs[i].classList.remove("active");
+            }
+
+            // Show the current tab and add active class
+            document.getElementById(categoryName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+
+        // Set the default tab to be shown
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementsByClassName("pub-tab")[0].click();
+        });
+    </script>
+</body>
+
+</html>

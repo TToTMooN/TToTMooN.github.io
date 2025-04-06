@@ -1,0 +1,580 @@
+/* CSS Reset (Meyer's Reset) */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**************************************************/
+
+/* Main Container */
+#main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Body Styling */
+#body {
+    font-family: roboto, sans-serif;
+    color: #a0a8b0;
+    background: #fff;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/**************************************************/
+/* Color Theme Variables */
+:root {
+    --primary-color: #7b4a81;
+    /* Deep purple replacing blue */
+    --primary-light: #f0e6f4;
+    /* Light purple background for active states */
+    --secondary-color: #d496ab;
+    /* Muted pink for accents */
+    --text-dark: #3a2f45;
+    /* Dark purple for headings */
+    --text-body: #333333;
+    /* Dark gray for regular text */
+    --border-light: #e8d5e2;
+    /* Light pink border */
+}
+
+/* Header styling */
+#header {
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 40px;
+    padding: 0;
+    position: relative;
+    height: 58px;
+}
+
+#header div:first-child {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 58px;
+}
+
+#header div:nth-child(2) {
+    float: right;
+}
+
+#header a {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--text-dark);
+    text-decoration: none;
+    line-height: 58px;
+}
+
+#header a:hover {
+    color: var(--secondary-color);
+}
+
+/**************************************************/
+/* Profile Section */
+#profile {
+    padding: 30px 30px 10px 30px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+#profile-pic {
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#profile img {
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+#profile-name {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #003373;
+}
+
+#profile-intro {
+    overflow: hidden;
+}
+
+#profile p {
+    margin-bottom: 20px;
+}
+
+/**************************************************/
+/* Divider */
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/**************************************************/
+/* Section Styles */
+.section {
+    padding: 30px;
+    padding-left: 0;
+}
+
+/**************************************************/
+/* Publications */
+.publications h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #003373;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+/* Research project styling */
+.research-proj {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    background-color: white;
+    /* White background by default */
+    transition: background-color 0.2s;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.research-proj:hover {
+    background-color: rgba(240, 230, 244, 0.3);
+    /* Light purple background on hover */
+}
+
+.research-thumb {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--border-light);
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.research-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+/* Optional hover effect to see slightly more of the image */
+.research-thumb:hover img {
+    transform: scale(1.05);
+}
+
+/* For images that need custom positioning */
+.research-thumb.position-top img {
+    object-position: center top;
+}
+
+.research-thumb.position-bottom img {
+    object-position: center bottom;
+}
+
+/* Research project title */
+.research-proj-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+}
+
+.research-proj-title:hover {
+    color: var(--secondary-color);
+}
+
+.research-proj p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+/* Make sure proper colors are applied to links */
+.research-proj p a {
+    color: var(--primary-color);
+}
+
+.research-proj p a:hover {
+    color: var(--secondary-color);
+}
+
+/* For tablet-sized screens and above, use a horizontal layout */
+@media (min-width: 768px) {
+    .research-proj {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .research-thumb {
+        margin-right: 20px;
+        margin-bottom: 0;
+        flex-shrink: 0;
+    }
+
+    .research-proj-content {
+        flex: 1;
+    }
+}
+
+/* Ensure author names are properly bolded */
+.research-proj p strong {
+    font-weight: 700 !important;
+    /* Use 700 instead of 600 for more emphasis */
+    color: inherit;
+    /* Keep the text color unchanged */
+}
+
+/* Ensure italic elements are properly styled */
+.research-proj p i,
+.research-proj p em {
+    font-style: italic !important;
+    color: #666;
+    /* Slightly darker gray to improve readability */
+    font-weight: normal;
+}
+
+/* Add more emphasis for important status items */
+.research-proj p i b,
+.research-proj p i strong,
+.research-proj p em b,
+.research-proj p em strong {
+    font-weight: 600 !important;
+    font-style: italic !important;
+}
+
+/* Special styling for awards or honors mentioned in italics */
+.research-proj p i:has(b),
+.research-proj p i:has(strong) {
+    color: var(--secondary-color);
+    /* Use accent color for award mentions */
+}
+
+/**************************************************/
+/* Teaching Section */
+.teaching h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #003373;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.teaching ul {
+    margin-left: 30px;
+    color: #a0a8b0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Section title styling */
+.section-header h1,
+.teaching h1,
+.publications h1,
+.experience h1,
+.about h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+/* Section header with tabs */
+.section-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.section-header h1 {
+    margin: 0;
+    margin-right: 20px;
+}
+
+/* Publication tabs styling */
+.pub-tab {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 10px;
+    transition: all 0.2s;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #666;
+    border: 1px solid var(--border-light);
+    display: inline-block;
+}
+
+.pub-tab:hover {
+    background-color: #f5f5f5;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.pub-tab.active {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Publication content styling - fix background issues */
+.pub-content {
+    display: none;
+    background-color: white !important;
+    /* Force white background */
+}
+
+.pub-content.active {
+    display: block;
+    background-color: white !important;
+    /* Force white background when active */
+}
+
+/* Reset any background colors that might be applied to pub content children */
+.pub-content>div {
+    background-color: white;
+}
+
+/* Override any theme-based background colors for active states in pub content */
+.pub-content.active,
+.pub-content.selected,
+.pub-content.highlighted {
+    background-color: white !important;
+}
+
+/* Research project hover effect should still work */
+.research-proj {
+    background-color: white;
+}
+
+.research-proj:hover {
+    background-color: rgba(240, 230, 244, 0.3);
+}
+
+/* Override any default browser styles for links */
+.container a,
+.section a,
+.research-proj a,
+.pub-content a {
+    color: var(--primary-color);
+}
+
+.container a:hover,
+.section a:hover,
+.research-proj a:hover,
+.pub-content a:hover {
+    color: var(--secondary-color);
+}
+
+/* Fix for any blue focus outlines */
+:focus {
+    outline-color: var(--primary-color);
+}
+
+/* Ensure any blue backgrounds in the entire site are updated */
+.active,
+.selected,
+.highlighted {
+    background-color: var(--primary-light) !important;
+    color: var(--primary-color) !important;
+}
+
+/* Style for links that appear in headings */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: var(--primary-color);
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    color: var(--secondary-color);
+}
+
+/* Image hover zoom effect - show full image in original position */
+.research-thumb.zoomable {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+}
+
+.research-thumb.zoomable img.zoomable {
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+
+.research-thumb.zoomable:hover img.zoomable {
+    position: relative;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
